@@ -18,8 +18,9 @@ html, body {
     height: 50px;
     width: 50px;
     border: 1px solid black;
-    vertical-align: middle;
-    font-size: 30px;;
+    vertical-align: -webkit-baseline-middle;
+    font-size: 30px;
+    flex: auto;
 }
 .to-dos {
     margin-top: 25px;
